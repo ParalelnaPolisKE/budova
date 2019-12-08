@@ -1,0 +1,31 @@
+{
+  "name": "ppke-budova-web",
+  "version": "1.0.0",
+  "description": "Paralelná Polis Košice - Budova",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp"
+  },
+  "keywords": [
+    "ppke",
+    "paralelna-polis",
+    "paralelna-polis-kosice"
+  ],
+  "author": "Michal Takac <takacmichal92@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-nunjucks": "^5.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "nunjucks": "^3.2.0"
+  }
+}
